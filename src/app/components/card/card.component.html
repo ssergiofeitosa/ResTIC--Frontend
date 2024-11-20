@@ -1,0 +1,16 @@
+<mat-card (click)="openDetails()" class="example-card">
+  <div class="container">
+    <img 
+      mat-card-image 
+      [src]="imageUrl" 
+      [style.width.px]="imageWidth" 
+      [style.height.px]="imageHeight" 
+      alt="{{ title }}">
+  </div>
+  <div class="descricao">
+    <mat-card-title class="t">{{ title }}</mat-card-title> <!-- Título dinâmico -->
+    <mat-card-content>
+      <p class="dsc">{{ ingredients}}</p> <!-- Descrição dinâmica -->
+    </mat-card-content>
+  </div>
+</mat-card>

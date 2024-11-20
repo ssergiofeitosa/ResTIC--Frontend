@@ -1,0 +1,10 @@
+<section>
+    <div class="example-button-row">
+      <button  [ngClass]="['btn', 'btn-' + type]" [ngStyle]="{'background-color': backgroundColor || '', 'color': textColor || '','width': width || 'auto'}" [routerLink]="link">
+        {{ label }}
+      </button>
+      
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  

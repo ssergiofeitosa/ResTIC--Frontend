@@ -1,0 +1,19 @@
+
+
+
+<div class="container">
+    <h1 class="h1">DETALHES</h1>
+  <div class="ctn">
+    
+        <h1 style="color: #521D16;font-weight: 800;" mat-dialog-title>{{ data.title }}</h1>    <div mat-dialog-content>
+       <img  [src]="data.image" alt="Imagem do hambúrguer" width="200" />
+           <h3>{{ data.description }}</h3>
+       <p>{{ data.ingredients }}</p>
+          <h4>{{ data.price }}</h4>    </div>
+       <div class="btn">
+          <button  style="color: white;" [routerLink]="'/pedido'" (click)="closeDialog()" >Comprar</button>  
+       </div>
+
+  </div>
+    
+</div>

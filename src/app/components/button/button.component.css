@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+button {
+    font-family:'inter', sans-serif;
+    padding: 10px 20px;
+    background-color: #ED0000; /* Cor principal */
+    color: #ffffff ; /* Cor do texto */
+    
+    border-radius: 1px; /* Bordas arredondadas */
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    height: 66px;
+    width: 256px;
+    
+    
+  }
+  
+  /* Efeito hover */
+ 
+  
+ 
+ 
+  
+
+  
+  button.small {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  button.large {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  .btn-primary {
+    background-color: #ED1B00;
+    color: white;
+    border: none;
+  }
+  
+  .btn-secondary {
+    
+    background-color: rgb(255, 255, 255);
+    color: #521D16; 
+    border-color: #ED1B00;
+    border-width: 1.5px;
+    box-shadow: none;
+    
+  }

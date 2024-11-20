@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+h1{
+    
+    font-family: 'inter',sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: #ED0000;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px; 
+    background-color: #fff; 
+    
+    z-index: 1000; 
+    display: flex;
+    align-items: center; 
+    padding: 0 20px; 
+    justify-content: center;
+}
+
+
+  .cards-container {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite quebrar linha caso necessário */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+  }
+  .container{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }

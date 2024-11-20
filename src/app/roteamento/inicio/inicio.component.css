@@ -1,0 +1,72 @@
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px; 
+    background-color: #fff; 
+    
+    z-index: 1000; 
+    display: flex;
+    align-items: center; 
+    padding: 0 20px; 
+    justify-content: center;
+}
+
+.content {
+    margin-top: 60px; 
+    padding: 20px; 
+}
+
+.app-card {
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+   
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.app-button-container {
+    display: flex; /* Usando Flexbox para alinhar os botões lado a lado */
+    justify-content: space-around; /* Espaçamento igual entre os botões */
+    margin-top: 10px; 
+}
+
+.app-button {
+    flex: 1; /* Os botões crescem para ocupar o espaço disponível */
+    margin: 0 5px; 
+    padding: 10px; 
+    /* background-color: #ffffff;  */
+    /* color: white;  */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+
+@media (max-width: 600px) {
+    .app-button-container {
+        flex-direction: column; 
+    }
+    
+    .app-button {
+        margin: 5px 0; 
+    }
+}
+.imgcont{
+    justify-content: center;
+    max-width: 836px;
+    max-height: 442px;
+    padding-bottom: 70px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.btns{
+    justify-content:center;
+    display: flex;
+    gap: 80px;
+}

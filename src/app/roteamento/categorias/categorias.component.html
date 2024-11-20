@@ -1,0 +1,38 @@
+<app-header class="header">
+
+</app-header>
+ <h1>CARDÁPIO</h1>
+ <div class="cards-container">
+    <app-card 
+      [imageUrl]="'assets/images/burger.png'" 
+      [title]="'X-Vegan'" 
+      [description]="'Um hambúrguer 100% vegano que não abre mão do sabor e textura. Feito com proteína de jaca defumada e grãos integrais.'"
+      [price]="'R$ 30,00'"
+      [ingredients]="'Hambúrguer de jaca, pão integral, alface orgânica, tomate, molho vegano de ervas, cebola caramelizada'"
+      >
+    </app-card>
+  
+    <app-card 
+      [imageUrl]="'assets/images/burger.png'" 
+      [title]="'X-Fitness'" 
+      [description]="'O hambúrguer ideal para atletas e amantes de vida saudável. Alto teor proteico e baixo em carboidratos.'"
+      [ingredients]=" 'Hambúrguer de frango grelhado, pão integral proteico, queijo cottage, alface, tomate, molho light de iogurte'"
+      [price]=" ' R$ 26,50' "
+      
+      >
+          
+    </app-card>
+  
+    <app-card 
+      [imageUrl]="'assets/images/burger.png'" 
+      [title]="'X-Infarto'" 
+      [description]="'Para os amantes de hambúrguer sem compromisso com a dieta. Explosão de sabores e calorias garantidas!'"
+      [ingredients]="'Hambúrguer duplo de costela, queijo cheddar derretido, bacon crocante, cebola crispy, molho especial, pão brioche.'"
+      [price]="' R$ 32,90'"
+      >
+    </app-card>
+  </div>
+<div class="container">
+    <app-button label="VER CARDÁPIO COMPLETO" type="primary" [width]="'364px'" [routerLink]="'/cardapio'"></app-button>
+</div>
+  
